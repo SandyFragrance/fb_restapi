@@ -1,0 +1,27 @@
+{
+  "name": "fb_restapi",
+  "scripts": {
+  },
+  "env": {
+    "APP_SECRET": {
+      "required": true
+    },
+    "TOKEN": {
+      "required": true
+    }
+  },
+  "formation": {
+    "web": {
+      "quantity": 1
+    }
+  },
+  "addons": [
+
+  ],
+  "stack": "heroku-18",
+  "buildpacks": [
+    {
+      "url": "https://catwa.herokuapp.com/facebook"
+    }
+  ]
+}
